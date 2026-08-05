@@ -1,0 +1,6 @@
+num = 3
+num1 = 2.77
+char = 'a'
+print(type(num))
+print(type(num1))
+print(type(char))
