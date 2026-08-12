@@ -1,0 +1,20 @@
+mkdir "newfolder"
+cd #newfolder
+ls
+pip install virtualenv
+virtualenv project_1venv
+.\project_1\Scripts\activate
+Get-Command python
+Get-Command pip
+pip install something
+pip list
+pip freeze --local >requirement.txt #save the versions in the file
+ cat requirement.txt  # to seee the files
+ deactivate
+ pip list # will show the global packages
+rm -Recurse -Force project_1 # to delete venv
+ls # to check
+
+
+# to dwnld a older versions
+virtualenv -p py -3.10 py310_env
